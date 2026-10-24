@@ -24,7 +24,7 @@ An orbyte ecosystem that provide accuracy and automation in a Flow to Up-scale t
 # Links
 | Resouce | Link |
 |---------|------|
-| Github Repository | | 
-| Live Demo | |
+| Github Repository | https://github.com/Vioclast/SDCHACK_KALIDERES | 
+| Live Demo | https://flowup-retail-orbyte-mvp.replit.app/ |
 | Slide Deck | |
 | Demo Video | |
