@@ -2,24 +2,25 @@
 
 # FlowUp
 
+
 # Team Information 
 
 # Links
 
-#Overview
+# Overview
 
-#Problem 
+# Problem 
 Micro and small grocery retailers in Malaysia run daily operations across WhatsApp, spreadsheets, paper notes and memory. Sales and stock are recorded in different places, owners often learn an item is out of stock only when a customer asks for it, and financial figures are hard to verify. Late reorders, expired goods and unchecked records quietly cost margin, and small teams cannot afford complex systems or formal training.
 
-#Solution
+# Solution
 FlowUp is a connected operations hub for a retail grocery store, designed as a reusable module for the Orbyte ecosystem. It brings sales, stock, suppliers and finance into one place and automates the routine checks that owners normally do by hand.
 
-#Key Features 
+# Key Features 
 - **Automatic stock reminders** — FlowUp checks stock conditions and flags items that need checking or restocking before they run out, so owners no longer find out when a customer asks.
 - **One connected store system** — Cashier sales update stock automatically, while products, suppliers, finance and budget live in one place with dashboards and charts for sales, stock and spending.
 - **Role-based control with human approval** — Owner, cashier, supply, finance and analyst each see only what they need. The system flags data that needs review, a person verifies or corrects it, and every action is kept in an audit log.
 
-#Project Structure 
+# Project Structure 
 .
 ├── client/                      # React frontend: role dashboards, cashier, goods receiving
 │   └── src/
@@ -45,7 +46,7 @@ FlowUp is a connected operations hub for a retail grocery store, designed as a r
 ├── package.json                 # Node dependencies
 └── README.md
 
-#Architecture 
+# Architecture 
 User (Owner / Cashier / Warehouse / Finance)
         │
         ▼
@@ -64,7 +65,7 @@ Replit backend → shown in the dashboard → a person approves → action logge
 All numbers come from deterministic backend rules. The model only writes text
 and never calculates. If RunPod is unavailable, the app falls back to templates.
 
-#How we use replit 
+# How we use replit 
 - **Development:** FlowUp was built in Replit. We first wrote a structured specification (roles, data flow, formulas and reference test numbers), then used Replit Agent to generate the app and refined it in the Replit workspace. [Add "in a shared Repl using Multiplayer" only if the team really did this.]
 - **Hosting:** The app is deployed with Replit Deployments at the Live Demo link above. [Keep only after the app is deployed.]
 - **Database:** Synthetic store data is stored in the Replit-hosted database. [Check whether the app uses SQLite or Postgres and name it.]
@@ -83,7 +84,7 @@ and never calculates. If RunPod is unavailable, the app falls back to templates.
 - Human approval plus an audit log makes automation easier for SME owners to trust.
 - Rules should decide the numbers; AI should only explain them.
 
-  ## Future Improvements
+## Future Improvements
 
 - [ ] QR scanning for incoming stock
 - [ ] Full purchase order workflow with supplier confirmation
