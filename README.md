@@ -14,6 +14,13 @@ An orbyte ecosystem that provide accuracy and automation in a Flow to Up-scale t
 | University | Asia Pacific University |
 | Number of Members | 4 | 
 
+| Name | Role | Github username |
+|------|------|-----------------|
+| Abraham Darell Jeremiah | | @B04-Favela |
+| Aska Aidan | | @vioclast |
+| Carlos Lee | | @lee-carlos | 
+| Jones Ruben Tobias | | @jones-ruben-tobias |
+
 # Links
 | Resouce | Link |
 |---------|------|
